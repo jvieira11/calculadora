@@ -15,10 +15,6 @@ while True:
 
     op = input('Escolha uma opção: ')
 
-    if op == '5':
-        print('Saindo da calculadora...')
-        break
-
     numero1 = float(input('Digite o primeiro número: '))
     numero2 = float(input('Digite o segundo número: '))
 
@@ -39,3 +35,7 @@ while True:
             print('Erro: Divisão por zero não é permitida.')
     else:
         print('Opção inválida. Tente novamente.')
+
+    if op == '5':
+        print('Saindo da calculadora...')
+        break
